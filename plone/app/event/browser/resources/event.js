@@ -142,7 +142,7 @@ if (typeof(plone) === 'undefined') {
         }
         jq_start.each(function () {
             init_date_setter($(this));
-            $(this).on('change', updateEndDate);
+//            $(this).on('change', updateEndDate);
         });
         jq_end.each(function () {
             init_date_setter($(this));
